@@ -1,0 +1,32 @@
+{
+  "name": "Your Name",
+  "tagline": "I build things for the web and I'm learning to ship them.",
+  "status": "Live. Deployed from GitHub with AWS Amplify.",
+  "about": [
+    "Write two or three sentences about who you are and what you're working on right now.",
+    "Edit content.json, save, and push to GitHub. Amplify rebuilds the site in about a minute."
+  ],
+  "projects": [
+    {
+      "title": "First project",
+      "description": "One sentence on what it does and who it is for.",
+      "url": "https://example.com"
+    },
+    {
+      "title": "Second project",
+      "description": "Swap this for something you've made, or something you want to make.",
+      "url": "https://example.com"
+    },
+    {
+      "title": "Third project",
+      "description": "Delete this block if you only have two projects.",
+      "url": "https://example.com"
+    }
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/your-username" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-username" },
+    { "label": "Email", "url": "mailto:you@example.com" }
+  ],
+  "footer": "Made at the AWS workshop."
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Website</title>
+  <meta name="description" content="A personal website deployed with GitHub and AWS Amplify.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23ffd84a' stroke='%2324262b' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="hero">
+    <div class="sun" aria-hidden="true"></div>
+    <p class="status"><span class="dot" aria-hidden="true"></span><span id="status"></span></p>
+    <h1 id="name">Your Name</h1>
+    <p class="tagline" id="tagline"></p>
+    <ul class="links" id="links" aria-label="Links"></ul>
+  </header>
+
+  <main id="main">
+    <section class="block" aria-labelledby="about-h">
+      <h2 id="about-h">About</h2>
+      <div id="about" class="prose"></div>
+    </section>
+
+    <section class="block" aria-labelledby="projects-h">
+      <h2 id="projects-h">Projects</h2>
+      <ul class="cards" id="projects"></ul>
+    </section>
+
+    <noscript>
+      <p class="prose">This site loads its content with JavaScript. Enable it to see the page.</p>
+    </noscript>
+  </main>
+
+  <footer class="foot"><p id="footer"></p></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
